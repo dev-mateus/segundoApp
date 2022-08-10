@@ -7,6 +7,15 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  frase : string;
+  resultado : string;
+
   constructor() {}
+
+  escrever(){
+
+    this.resultado = this.frase
+  
+  }
 
 }
